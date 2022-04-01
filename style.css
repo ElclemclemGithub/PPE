@@ -1,15 +1,90 @@
-.arrière_plan {
-	background-color: #2AABF2;
-	height: 100%;
-	right: 100%;
-	width: 100%;
-	background-size: 100%;
+body{
+    background: #67BE4B;
 }
-.fonds {
-	height: 500px;
-	right: 580px;
-	background-color: #6484d8;
-	border-radius: 10px;
-	width: 30%;
-	border: 5px;
+#container{
+    width:400px;
+    margin:0 auto;
+    margin-top:10%;
+}
+.imag{
+    text-align: center;
+}
+/* Bordered form */
+form {
+    margin-top: 15px;
+    padding: 30px;
+    border: 1px solid #f1f1f1;
+    background: #fff;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+#container h1{
+    width: 38%;
+    margin: 0 auto;
+    padding-bottom: 10px;
+}
+
+/* Full-width inputs */
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+/* Set a style for all buttons */
+input[type=submit] {
+    background-color: #53af57;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+input[type=submit]:hover {
+    background-color: white;
+    color: #53af57;
+    border: 1px solid #53af57;
+}
+
+.formulaire {
+    display: none;
+}
+ 
+#mot:checked ~ .formulaire {
+    display: block;
+}
+ 
+#voi:checked ~ .formulaire {
+    display: block;
+}
+
+/* page accueil.php */
+.body{
+    color: #00D823;
+    text-decoration-color: black;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+/* nav bar */ 
+
+.nav-bar{
+    display: flex;
+    background-color: #0049D8;
+    
+}
+.block{
+    display: block;
+    background-color: #0049D8;
+    margin: 30px;
+}
+/* page vehicul */ 
+.block_vehi{
+    display: block;
 }
